@@ -1,0 +1,320 @@
+/@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,25&display=swap');/
+*{
+	margin: 0px;
+	pad: 0px;
+	box-sizing:border-box;
+	font-size:20px;
+
+}
+html{
+	scroll-behavior: smooth;
+}
+.navigation-bar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 5;
+}
+	.navigation-bar{
+		width: 100%;
+		height: 15vh;
+		color: lightsalmon;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border: none;
+		backdrop-filter: blur(25px);
+	}
+	.nav-link::hover::after{
+		width: 115%;
+	}
+	.nav-link::after{
+		content: "";
+		position: absolute;
+		background-color:red;
+		height: 5px;
+		width: 0px;
+		left: 0;
+		bottom: -8px;
+		transition: all 0.5s ease;
+	}
+.mymenus{
+	font-weight: bolder;
+	color: steelblue;
+		
+}
+.logo{
+	font-family: Ariel Black;
+	font-size: 75px; 
+
+}
+.logo{
+			margin-top: 8px;
+			background: linear-gradient(to right,#5a03fc,#fc03f4,#fc036b,#fc0303,#fc5a03,#fcf403);
+			font-size: 75px;
+			background-size: 200% auto;
+			-webkit-background-clip:text;
+			color: transparent;
+			animation: gradient 2s linear infinite;
+		}
+
+		@keyframes gradient{
+			0%{
+				background-position: 0% 75%;
+			}
+			50%{
+				background-position: 100% 30%;
+			}
+
+			100%{
+				background-position: 0% 70%;
+			}
+
+		}
+
+				@keyframes button{
+			0%{
+				background-position: 0% 75%;
+			}
+			50%{
+				background-position: 100% 30%;
+			}
+
+			100%{
+				background-position: 0% 70%;
+			}
+
+		}
+.allsections{
+	position: relative;
+	top: 100px;
+	width: 100%;
+
+}
+.allsections::after{
+		content: "";
+		position: absolute;
+		background-color:blue;
+		height: 5px;
+		width: 0px;
+		left: 0;
+		bottom: -8px;
+		transition: all 0.5s ease;
+	}
+.allsections::hover::after{
+		width: 100%;
+	}
+#home{
+	color: black;
+	padding-top: 60px;
+}
+	#about{
+	color: black;
+	padding-top: 60px;
+}
+#skills{
+	color: black;
+	padding-top: 60px;
+}
+#projects{
+	color: black;
+	padding-top: 60px;
+}
+#contact{
+	color: black;
+	padding-top: 60px;
+}
+}
+.section h1{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.home-section{
+	border: none;
+	width: 100%;
+	height: 600px;
+	background-image: url(https://i.pinimg.com/originals/b9/e4/96/b9e4960c1476c78043d499d975f86cdb.gif);
+	background-repeat: no-repeat;
+	backgroundd-size:65%;
+	background-position: 95% 2%;
+}
+.myinfo{
+	height: 450px;
+	width: 50%;
+	margin: 5% 4%;
+}
+.info-home{
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.myname{
+	font-size: 50px;
+}
+.fsjd{
+	font-family: Elephant;
+	font-size: 30px;
+	color:deepskyblue;
+}
+.resume{
+	height: 60px;
+	width: 450px;
+	margin: 10px 2px;
+	border: none;
+	background-color:yellowgreen;
+	color: white;
+	border-radius: 30px;
+	font-family: sans-serif;
+}
+.resume:hover{
+			background-color: white;
+			color:yellowgreen;
+			scale: 0.95;
+			box-shadow: 0 0 0px #03e9f4,0 0 30px gold ;,0 0 0px #03e9f4,0 0 0px #03e9f4;
+		}
+		.resume:active{
+			transform: translateY(5px);
+			background-color: springgreen;
+			color: white;
+			box-shadow: 0 0 10px #03e9f4,0 0 30px gold ;,0 0 0px #03e9f4,0 0 0px #03e9f4;
+		}
+AOS.init
+	{
+  useClassName: true,
+  initClassName: false,
+  animatedClassName: 'animated',
+};
+.about-section{
+	background-color: ghostwhite;
+	border: none;
+	width: 100%;
+	height: 500px;
+	display: flex;
+
+	padding: 20px;
+}
+.aboutsect{
+	height: 525px;
+}
+.myimg{
+	width: 40%;
+	padding-top: 150px;
+}
+.cobj{
+	padding: 30px 60px;
+	width: 60%;
+}
+.career{
+	text-align: justify;
+	font-size: 20px;
+	margin-top: 110px;
+	text-indent: 20%;
+	font-family: sans-serif;
+	font-weight: bolder;
+	line-height: 40px;
+}
+.projects-section{
+	background-color: ghostwhite;
+	border: none;
+	width: 100%;
+	height:800px;
+
+	padding: 20px;
+}
+.contacts-section{
+	background-color: ghostwhite;
+	border: none;
+	width: 100%;
+	height: 500px;
+
+	padding: 20px;
+}
+.skills-section{
+	background-color: ghostwhite;
+	border: none;
+	width: 100%;
+	height: 500px;
+
+	padding: 20px;
+}
+.skills-section{
+	height: 580px;
+	border: none;
+	padding: 20px;
+}
+.rows td{
+	padding:10px;
+}
+.tbl{
+	margin-top: 50px;
+}
+.skill-head{
+	font-size: 25px;
+	margin-bottom: 30px;
+	font-family: Aeial Black;
+	color: deeppink;
+	font-variant: small-caps;
+	text-decoration: underline 3px solid deeppink;
+}
+.skillset{
+	font-weight: bolder;
+	font-family: sans-serif;
+}
+.rows td div{
+	height: 200px;
+	border-radius: 20px;
+}
+.rows td div:hover{
+	box-shadow: 0px 0px 10px skyblue;
+}
+.projects-section{
+	padding:20px;
+	border: none;
+}
+.all-projects{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.card-title{
+	color:deeppink;
+	font-weight: bolder;
+}
+.card-img-top{
+	height:100px;
+	width: 100px;
+}
+.project-section{
+	height: 1300px;
+}
+.card{
+	border-radius: 20px;
+}
+.card :hover{
+	box-shadow: 0px 0px 10px skyblue;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins' , sans-serif;
+}
+.P{
+	padding-top:10%;
+	font-family:Arial black;
+	color: purple;
+	font-size:20px;
+    font-weight: bolder;
+
+}
+.infosr{
+	padding: 5%;
+	font-size:40;
+	font-family: revert-layer;
+	font-weight: bolder;
+}
+.contacts-section{
+	padding:2%;
+	border-radius: 2%;
+	box-shadow: indigo;
+}
